@@ -1,0 +1,24 @@
+.nav {
+  position: absolute;
+  right: 0;
+  top: 65px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  margin-left: 80px;
+}
+
+.nav ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+  color: #0f1923;
+}
+
+.nav ul li a:hover {
+  color: #ece8e1;
+}
